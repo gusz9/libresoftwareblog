@@ -1,7 +1,7 @@
-* {
-	margin:0px;
-	padding: 0px;
-	box-sizing:content-box;
+*, *:before, *:after {
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
 }
 
 
@@ -120,7 +120,7 @@ a {
 }
 
 /*MOBILE*/
-@media all and (max-width:500px) {
+@media all and (max-width:540px) {
 
 	#blog {
 		font-size: 14px;	
